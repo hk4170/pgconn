@@ -1,0 +1,14 @@
+[package]
+name = "pgconn"
+version = "0.1.0"
+edition = "2021"
+description = "A lightweight, sync PostgreSQL client library with SQL-syntax-named methods"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+postgres = "0.19"
+thiserror = "2"
+url = "2"
+
+[dev-dependencies]
+tempfile = "3"
